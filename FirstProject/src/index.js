@@ -49,15 +49,15 @@
  * 3. log the length of the array in the console.
  * 4. push the value "beauty" into the array
  */
-let joyPack = "winterbed"
+// let joyPack = "winterbed"
 
-let winePress = "Assignment string"
-console.log(winePress.toUpperCase())
-console.log(winePress.replace("Assignment","test"))
+// let winePress = "Assignment string"
+// console.log(winePress.toUpperCase())
+// console.log(winePress.replace("Assignment","test"))
 
-let table = "sugarpin"
-console.log(table.length)
-console.log(table.replace())
+// let table = "sugarpin"
+// console.log(table.length)
+// console.log(table.replace())
 // More assignments on strings and array
 
 /** For string
@@ -73,13 +73,73 @@ console.log(table.replace())
  * 2. store three items in the array, namely: "Jace", 25, "happiness"
  * 3. push the word: "mood" into the array.
 */
-let bankPay = "Happy coding in java script"
-console.log(bankPay.replace("Happy coding","Doing coding"))
-console.log(bankPay.toLowerCase)
+// let bankPay = "Happy coding in java script"
+// console.log(bankPay.replace("Happy coding","Doing coding"))
+// console.log(bankPay.toLowerCase)
 
-let fruit = ["Jace","25","happiness"];
-fruit.push('mood');
-console.log(fruit);
-const numbers = [1,2,3,];
-numbers.push(4);
-console.log(numbers);
+// let fruit = ["Jace","25","happiness", 25,52,46];
+// fruit.push('mood');
+// console.log(fruit);
+// const numbers = [1,2,3,];
+// numbers.push(4);
+// console.log(numbers);
+// clw on strings
+/**
+ * 1. Declare a variable with the string value: "Hey Jace".
+ * 2. Check if the string starts with "How", and store the result in a variable
+ * 3. Check if the string ends with "Jace", and store the result in a variable
+ * 4. If the string ends with "Jace", log it into the console.
+ */ 
+
+// let bigi = 'Hey Jace'
+// let startResult = bigi.startsWith('How')
+// let endResult = bigi.endsWith('Jace')
+
+// if(endResult){
+//   console.log("it entered into the if statement!")
+//   console.log(endResult)
+// }
+// Object**/
+// if else statement
+
+
+
+/**
+ * Objects in javascripts
+ * -----------------------
+ * {} -- Object
+ * [1,2,3,4,5,6] -- Array
+ * "refjklfejhstufie;hatr" or 'jfeojhfsfg' -- String
+ * 
+ */
+
+let myCar = {
+  manufacturer : "Toyota",
+  model : "Camry",
+  year : 2020,
+  color : "white",
+  drive : ()=>{ return "The car is being driven..."}
+}
+
+
+/** 
+ *1. Create a custom object on Dog;
+ *2. Specify 5 properties for your dog object, with their respective values.
+*/let Dog = {
+  breed : 'german shepherd',
+  sex : 'female',
+  age : 'two years',
+  color : 'brown',
+  height : '2 feet',
+
+}
+console.log(Dog.breed)
+console.log(Dog.sex)
+console.log(Dog.age)
+/**
+ * 
+ * Operators in javascript
+ * -----------------------
+ * Operators help to perform various operations on data types.
+ * Examples
+ */
