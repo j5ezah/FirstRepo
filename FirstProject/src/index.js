@@ -169,4 +169,12 @@
  *    c. -=
  *    d. /=
  *    e. %=
+ * 
+ * 
+ * 4. Logical operators:
+ *    a. && (and)
+ *    b. || (or)
+ *    c. ! (not)
  */
+
+
