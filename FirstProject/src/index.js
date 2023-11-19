@@ -113,33 +113,60 @@
  * 
  */
 
-let myCar = {
-  manufacturer : "Toyota",
-  model : "Camry",
-  year : 2020,
-  color : "white",
-  drive : ()=>{ return "The car is being driven..."}
-}
+// let myCar = {
+//   manufacturer : "Toyota",
+//   model : "Camry",
+//   year : 2020,
+//   color : "white",
+//   drive : ()=>{ return "The car is being driven..."}
+// }
 
 
 /** 
  *1. Create a custom object on Dog;
  *2. Specify 5 properties for your dog object, with their respective values.
-*/let Dog = {
-  breed : 'german shepherd',
-  sex : 'female',
-  age : 'two years',
-  color : 'brown',
-  height : '2 feet',
+// 
+/let Dog = {
+//   breed : 'german shepherd',
+//   sex : 'female',
+//   age : 'two years',
+//   color : 'brown',
+//   height : '2 feet',
 
-}
-console.log(Dog.breed)
-console.log(Dog.sex)
-console.log(Dog.age)
+// }
+// console.log(Dog.breed)
+// console.log(Dog.sex)
+// console.log(Dog.age)
 /**
  * 
  * Operators in javascript
  * -----------------------
  * Operators help to perform various operations on data types.
- * Examples
+ * Types and Examples of operators:
+ * 1. Comparison operators:
+ *    a. >
+ *    b. < 
+ *    c. ==
+ *    d. ===
+ *    e. !=
+ *    f. >=
+ *    g. <=
+ *    h. Object.is() //identity checking method
+ * 
+ * 2. Arithmetic operators:
+ *    a. *
+ *    b. **
+ *    c. +
+ *    d. /
+ *    e. -
+ *    f. %
+ * 
+ * 3. Assignment operators:
+ *    a. =
+ * 
+ *    //Augumented Assignment Operators
+ *    b. += 
+ *    c. -=
+ *    d. /=
+ *    e. %=
  */
