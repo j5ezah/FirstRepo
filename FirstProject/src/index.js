@@ -90,6 +90,20 @@
  * 3. Check if the string ends with "Jace", and store the result in a variable
  * 4. If the string ends with "Jace", log it into the console.
  */ 
+let sandra = 'Hey Jace';
+let startWithString = sandra.startsWith("How")
+let endWithString = sandra.endsWith("Jace")
+if(endWithString){
+  console.log(sandra)
+}
+
+let computer = 'colourful';
+console.log(computer)
+
+
+
+
+
 
 // let bigi = 'Hey Jace'
 // let startResult = bigi.startsWith('How')
@@ -109,7 +123,7 @@
  * -----------------------
  * {} -- Object
  * [1,2,3,4,5,6] -- Array
- * "refjklfejhstufie;hatr" or 'jfeojhfsfg' -- String
+ * "n' -- String
  * 
  */
 
@@ -176,5 +190,4 @@
  *    b. || (or)
  *    c. ! (not)
  */
-
 
