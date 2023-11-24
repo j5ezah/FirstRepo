@@ -191,3 +191,70 @@ console.log(computer)
  *    c. ! (not)
  */
 
+/**
+ * class activities on JavaScript objects
+ * 
+ * 
+ * 1. Create an object which models a football team
+ * 2. Assign all the desired properties to the object.
+ * 3. access and console four of the properties you give to your object.
+ * 
+ * l
+ */
+// let premierLeague = {
+// country : "uk",
+// numberOfClub : "20",
+// TopTeam : "mancity",
+// lowestTeam : "shefieldUnited",
+// highestWinners : "man U",
+// worldRanking : " no 1",
+// BestCoach : "ferguson",
+// }
+
+// console.log(premierLeague.country)
+// console.log(premierLeague.BestCoach)
+// console.log(premierLeague.TopTeam)
+// console.log(premierLeague.worldRanking)
+
+
+// Arithmetic operators example
+let someNumber = 24
+let secondNumber = 6
+let littelNumber = 5
+// console.log(someNumber % littelNumber)
+// let result = someNumber * secondNumber
+// console.log(result)
+// console.log(someNumber)
+
+/** Assignments on operators:
+ * 1. Declare two variables having different numbers assigned.
+ * 2. Use all the available arithmetic operators on both variables you declared!
+ * 3. At each stage of usage, log the value into the console.
+ * 4. Make a few research on the other operators given above!
+ */
+let john = 35
+let jace = 2
+let michael = 5
+let ruddy = 16
+// console.log(john)
+// console.log(jace)
+// console.log(michael)
+// console.log(ruddy)
+console.log(john / michael)
+console.log(ruddy + john)
+console.log(ruddy * michael)
+console.log(ruddy % michael)
+console.log(ruddy ** jace)
+console.log(john - ruddy)
+/**
+ * 
+ * 
+ * 
+ * 
+ */
+let hour = 12;
+let minute = 30;
+console.log(hour == 12 && minute == 30)
+
+
+// hour = hour + minute
