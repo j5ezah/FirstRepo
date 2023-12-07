@@ -328,7 +328,10 @@ let a = 5; let b = 2; let c = 'hello'
  * Conditional Statements
  *-----------------------
   Conditional statements help perform operations in our programs based on whether certain conditions are met.
-
+  let randomArr = []
+  if(randomArr){
+    console.log("there are things in the array")
+  }
 
   Types:
   1. if ()
@@ -474,18 +477,18 @@ else{
 //   console.log(" Either family is empty the full family available")
 // }
 
-let perf = 9
-if(perf < 10 || perf > 18){
-  console.log('The office is closed.');
-}
+// let perf = 9
+// if(perf < 10 || perf > 18){
+//   console.log('The office is closed.');
+// }
 
-let hours = 12
-if(hours < 10 || hours > 18){
-  console.log("The office is closed.");
-}
+// let hours = 12
+// if(hours < 10 || hours > 18){
+//   console.log("The office is closed.");
+// }
 
-let hourse = 12 
-let minutes = 30
-if(hourse == 12 && minutes == 30){
-  console.log('The time is 12:30');
-}
+// let hourse = 12 
+// let minutes = 30
+// if(hourse == 12 && minutes == 30){
+//   console.log('The time is 12:30');
+// }
