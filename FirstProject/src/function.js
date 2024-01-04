@@ -2,7 +2,9 @@ function perFormGreeting(){
     return "I called my function here..."
 }
 
-
+function children(playground, football){
+    return "children are playing " +football+ "," +playground
+}
 
 // console.log(perFormGreeting())
 
@@ -76,5 +78,6 @@ console.log(sum());
 // In the above example, the default value of x is 3 and the default value of y is 5.
 // sum(5, 15) - When both arguments are passed, x takes 5 and y takes 15.
 // sum(7) - When 7 is passed to the sum() function, x takes 7 and y takes default value 5.
-// sum() - When no argument is passed to the sum() function, x takes default value 3 and y takes default value 5.
+// sum() - When no argument is passed to the sum() function, x takes default value 3 and y 
+//takes default value 5.
 
