@@ -41,3 +41,15 @@ class rectangle{
 }
 //getter
 
+let dog = {
+    color:"white",
+    limbs:4,
+    breed:"labrador",
+    bark: ()=> console.log(`${this.breed} is barking`)
+}
+
+
+let mannerStreet =['isaich', 'joseph']
+conatructor[isaiah,joseph]
+this.isaiah=isaiah
+this.joseph=joseph

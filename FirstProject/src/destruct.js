@@ -37,3 +37,5 @@ let BrandOfCar = {
 }
 let {make,color}=BrandOfCar
 console.log(make,color)
+
+// 

@@ -21,8 +21,21 @@
  * 
  * 
  */
+
+
+
+
+
+   let cocaCola = "i need a bottle of drink"
+   console.log(cocaCola.length())
+  console.log(cocaCola[24])
+  console.log(replace("i","This"))
+  console.log(startWithString.startsWith(""))
+
+
+
 let hummerBoy = "creative lines"
- console.log(hummerBoy.length)
+ console.log(hummerBoy.length())
  console.log(hummerBoy[13])
  console.log(hummerBoy.replace("c","THis"))
  console.log(hummerBoy.startsWith("this"))
@@ -40,7 +53,7 @@ let hummerBoy = "creative lines"
  * 3. convert all the string to upperCase
  * 4. Replace the "Assignment" in the string with "Test"
  * 5. 
- * 
+ 
  * 
  * Assginment on Array
  * 
@@ -49,7 +62,11 @@ let hummerBoy = "creative lines"
  * 3. log the length of the array in the console.
  * 4. push the value "beauty" into the array
  */
- let joyPack = "winterbed"
+ 
+
+
+
+let joyPack = "winterbed"
 
  let winePress = "Assignment string"
  console.log(winePress.toUpperCase())
@@ -93,8 +110,8 @@ let bankPay = "Happy coding in java script"
 
  
 let boneTin = "Hey Jace"
-let startWithString = train.startWithString("How")
-let endWithString = bakeEnds.endWithString("Jace")
+let startWithString = train.startsWith("How")
+let endWithString = bakeEnds.endsWith("Jace")
 
 if(endWithJace){
   console.log(jac.endWithString("Jace"));
