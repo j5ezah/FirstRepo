@@ -98,17 +98,47 @@ let plentyNumbers = [ 1,4,7,3,8,9,2]
 
 
 
+/**
+ * 1.
+ * 
+ * Given an array of strings as this: ["y", "o", "u", " ", "a", "r", "e", " ", "g", "r", "e", "a", "t"]
+ * a. loop through the array, 
+ * b. concatenate each string in the array to form a single value as "YOU ARE GREAT", in upper case as seen here. 
+ * 
+ * -------------------------------------------------
+ **/
+let arrayOfStrings = ["y", "o", "u", " ", "a", "r", "e", " ", "g", "r", "e", "a", "t"]
 
+function convertToUpperString(arr){
+    let convertedStrings = arr.toString().replaceAll(",", "")
+    return convertedStrings.toUpperCase()
+}
 
+//* 2.
+//  * 
+//  * a. create a function that accepts a string as a value.
+//  * b. return the total length of the string input
+//  * cat
+//  * 
 
+function oddNmuber(stingyMan){
+    return stingyMan.length
+}
 
+//* 3.
+//  * -------------------------
+//  *   creat
+//  * a. create a function that takes a random string value.
+//  * b. within the function, check if the length of the string input is greater or equal to 5.
+//  * c. if the above is true, return the value `the length of the input value is ${nameOfTheStringInputVar}`rrttee
+//  */
 
-
-
-
-
-
-
+function sunnyDay(monday){
+    let itemLength = monday.length
+    if(itemLength >=5){
+        return `the length of the input value is ${itemLength}`
+    }
+}
 
 let customStringValues = "Andrew and James are best friends" 
 let emptyArray = []
@@ -120,9 +150,5 @@ console.log(emptyArray.length)
 let arrayOfNumbers= [1,3,7,8,9]
 for(let item of arrayOfNumbers)
 console.log(arrayOfNumbers)
-
-
-
-
-
-
+console.log(convertToUpperString(arrayOfStrings))
+console.log(sunnyDay("This is a test things"))

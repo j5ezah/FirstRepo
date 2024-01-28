@@ -132,7 +132,7 @@ console.log(moon != 'hello');
 
 //strict equal to operator
 
-// let back = 2
+let back = 2
 console.log(back === 2);
 console.log(back === '2')
 
